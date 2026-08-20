@@ -1,1 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {\n    fetch('data/books.json')\n        .then(response => response.json())\n        .then(data => {\n            const bookGrid = document.querySelector('.book-grid');\n            data.forEach(book => {\n                const bookItem = document.createElement('div');\n                bookItem.className = 'book-item';\n                bookItem.innerHTML = `\n                    <img src=\\"
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Bookstore Website Loaded");
+    // Add search functionality here
+});

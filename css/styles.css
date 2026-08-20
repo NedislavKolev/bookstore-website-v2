@@ -1,1 +1,19 @@
-body {\n    font-family: Arial, sans-serif;\n    background-color: #f4f4f4;\n}\n\n.book-grid {\n    display: flex;\n    flex-wrap: wrap;\n    margin: 20px 0;\n}\n\n.book-item {\n    background: white;\n    padding: 15px;\n    margin: 10px;\n    border-radius: 5px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n}\n\n.book-item img {\n    max-width: 100%;\n    border-radius: 5px;\n}\n\n@media (max-width: 600px) {\n    .book-grid {\n        display: flex;\n        flex-direction: column;\n    }\n}\n
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

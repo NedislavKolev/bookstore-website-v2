@@ -1,6 +1,7 @@
-# Utility functions for the bookstore application
+def fetch_books():
+    # Dummy function to represent book fetching
+    return [{"title": "Book 1"}, {"title": "Book 2"}]
 
-def validate_book_data(book_data):
-    """ Function to validate book data provided by users. """
-    # Validation logic here
-    return True
+def validate_user(user_details):
+    # Dummy validation for user login
+    return user_details.get("username") == "admin"

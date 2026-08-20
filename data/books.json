@@ -1,1 +1,4 @@
-[\n    {\n        \"id\": \"1\",\n        \"title\": \"Book Title 1\",\n        \"author\": \"Author Name 1\",\n        \"image\": \"assets/images/book1.jpg\"\n    },\n    {\n        \"id\": \"2\",\n        \"title\": \"Book Title 2\",\n        \"author\": \"Author Name 2\",\n        \"image\": \"assets/images/book2.jpg\"\n    },\n    {\n        \"id\": \"3\",\n        \"title\": \"Book Title 3\",\n        \"author\": \"Author Name 3\",\n        \"image\": \"assets/images/book3.jpg\"\n    }\n]
+[
+    {"title": "Book 1", "author": "Author A", "price": 29.99},
+    {"title": "Book 2", "author": "Author B", "price": 19.99}
+]
